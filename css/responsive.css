@@ -1,0 +1,551 @@
+@media screen and (max-width:430px) {
+    .wrap {
+        overflow: hidden;
+    }
+
+    .one {
+        height: 58.4rem;
+        border: none;
+    }
+
+    .two {
+        display: none;
+    }
+
+    #four,
+    #five,
+    #six,
+    #seven {
+        height: auto;
+    }
+
+    .three {
+        border: none;
+        height: auto;
+    }
+
+    #four,
+    #five {
+        border: none;
+    }
+
+    .header {
+        padding: 0;
+        display: block;
+        height: auto;
+        position: fixed;
+        z-index: 15;
+        width: 100%;
+    }
+
+    .header h1:nth-child(1) {
+        padding: 3rem 0 0.3rem 10px;
+    }
+
+    .header h1:nth-child(2) {
+        display: none;
+    }
+
+    .balls img:nth-child(1) {
+        width: 26rem;
+        top: 20rem;
+        left: -11rem;
+    }
+
+    .balls img:nth-child(2) {
+        display: none;
+    }
+
+    .balls img:nth-child(3) {
+        display: none;
+    }
+
+    .balls img:nth-child(4) {
+        display: none;
+    }
+
+    .balls img:nth-child(5) {
+        display: none;
+    }
+
+    .balls img:nth-child(6) {
+        display: none;
+    }
+
+    .balls img:nth-child(7) {
+        display: none;
+    }
+
+    .balls img:nth-child(8) {
+        display: none;
+    }
+
+    .balls img:nth-child(9) {
+        width: 3.5rem;
+        top: 15.3rem;
+        left: 9rem;
+    }
+
+    .balls img:nth-child(10) {
+        top: 26rem;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .title2 {
+        display: block;
+        font-size: 6.8rem;
+        line-height: 6.5rem;
+        color: white;
+        text-shadow:
+            -2.1px -2.1px 0 black,
+            2.1px -2.1px 0 black,
+            -2.1px 2.1px 0 black,
+            2.1px 2.1px 0 black;
+        padding-left: 10px;
+        letter-spacing: 4px;
+        margin-top: 10rem;
+    }
+
+    .titlegroup {
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .next {
+        display: block;
+        z-index: 9;
+    }
+
+    .arrow {
+        height: 11rem;
+        padding-left: 10px;
+    }
+
+    .third {
+        padding: 1rem 0 0 0;
+        height: auto;
+        display: none;
+    }
+
+    .thirdwhole .third>h1 {
+        display: none;
+    }
+
+    .submenu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .branding {
+        display: none;
+    }
+
+    .profile,
+    .webpage,
+    .video,
+    .branding2 {
+        padding-top: 2rem;
+        font-size: 2rem;
+        border-top: 1px solid black;
+    }
+
+    .branding2 {
+        display: block;
+        padding-left: 10px;
+    }
+
+    .info {
+        font-size: 1.2rem;
+    }
+
+    .profile {
+        width: 100vw;
+    }
+
+    .profile::after {
+        left: 0;
+        width: 100%;
+    }
+
+    .photo-mobile {
+        display: block;
+        max-width: 100%;
+        height: 19rem;
+    }
+
+    .three>div:nth-child(1) {
+        width: 100%;
+    }
+
+    .explainme {
+        text-align: left;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .myphoto {
+        display: none;
+    }
+
+    .tools {
+        grid-template-columns: repeat(5, 4.4rem);
+        grid-template-rows: repeat(2, 4.4rem);
+        grid-gap: 0.5rem;
+        place-items: center center;
+        padding-bottom: 2rem;
+    }
+
+    .tools div {
+        width: 4.4rem;
+        height: 4.4rem;
+        border-radius: 50%;
+        border: 1.8px solid black;
+    }
+
+    .tools a {
+        font-size: 1rem;
+        line-height: 4.4rem;
+    }
+
+    .headblank {
+        display: none;
+    }
+
+    .webex {
+        text-align: left;
+        padding: 0 10px;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .webex h3 {
+        font-size: 1rem;
+    }
+
+    .mySwiper {
+        width: 100%;
+        height: 34rem;
+    }
+
+    .swiper-wrapper {
+        height: 34rem;
+    }
+
+    .swiper-slide {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .swiper-slide iframe {
+        width: 100%;
+        height: 50%;
+        display: block;
+    }
+
+    .banner {
+        width: 100%;
+        left: 0;
+    }
+
+    .banner .btn-next {
+        width: 3.5rem;
+        height: 4rem;
+        top: 7rem;
+    }
+
+    .banner .btn-prev {
+        width: 3.5rem;
+        height: 4rem;
+        top: 7rem;
+    }
+
+    .swiper-pagination-bullet {
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 2rem;
+        height: 0.8rem;
+    }
+
+    .videoex {
+        order: 1;
+        padding-right: 10px;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .videoex h3 {
+        font-size: 1rem;
+    }
+
+    .branding br {
+        display: block;
+    }
+
+    .submenu br {
+        display: block;
+    }
+
+    .sixth {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, 26em);
+    }
+
+    .sixth li:nth-child(4) {
+        display: none;
+    }
+
+    .sixth li:nth-child(5) {
+        display: none;
+    }
+
+    .sixth li:nth-child(6) {
+        display: none;
+    }
+
+    .sixth li:nth-child(7) {
+        display: none;
+    }
+
+    .sixth li:nth-child(8) {
+        display: none;
+    }
+
+    .sixth li:nth-child(9) {
+        display: none;
+    }
+
+    .popup {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 82.5rem;
+        background-color: #222;
+        padding: 11vh 15vw;
+        opacity: 0;
+        transition: all .5s;
+    }
+    
+    .popup img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        align-items: center;
+    }
+
+    .blank7 {
+        display: none;
+    }
+
+    .info {
+        font-size: 1.3rem;
+        padding-top: 4rem;
+    }
+
+    .more {
+        font-size: 0.8rem;
+        padding-bottom: 6rem;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .title2 {
+        font-size: 6rem;
+        line-height: 5.7rem;
+        text-shadow:
+            -2.1px -2.1px 0 black,
+            2.1px -2.1px 0 black,
+            -2.1px 2.1px 0 black,
+            2.1px 2.1px 0 black;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    .tools {
+        grid-template-columns: repeat(5, 3.9rem);
+        grid-template-rows: repeat(2, 3.9rem);
+    }
+
+    .tools div {
+        width: 3.9rem;
+        height: 3.9rem;
+    }
+
+    .tools a {
+        font-size: 1rem;
+        line-height: 3.9rem;
+    }
+
+}
+ 
+@media screen and (max-width:375px) {
+    .wrap {
+        max-width: 100%;
+    }
+
+    .one {
+        height: 55rem;
+    }
+
+    .profile,
+    .webpage,
+    .video,
+    .branding, .branding2 {
+        font-size: 1.8rem;
+    }
+
+    header h1 {
+        font-size: 1.3rem;
+    }
+
+    .popup {
+        height: 72.7rem;
+    }
+
+    .info {
+        font-size: 1.1rem;
+    }
+
+    .title2 {
+        font-size: 6rem;
+        text-shadow:
+        -2.2px -2.2px 0 black,
+        2.2px -2.2px 0 black,
+        -2.2px 2.2px 0 black,
+        2.2px 2.2px 0 black;
+        line-height: 5.6rem;
+    }
+
+    .tools {
+        grid-template-columns: repeat(5, 4rem);
+        grid-template-rows: repeat(2, 4rem);
+        grid-gap: 0.4rem;
+    }
+
+    .tools div {
+        width: 4rem;
+        height: 4rem;
+        border: 1.5px solid black;
+    }
+
+    .tools a {
+        font-size: 1rem;
+        line-height: 4rem;
+    }
+
+    .webex h3 {
+        font-size: 0.9rem;
+    }
+
+    .videoex h3 {
+        font-size: 0.9rem;
+    }
+
+    .sixth {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, 22.8em);
+    }
+
+    .more {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .one {
+        height: 49rem;
+    }
+
+    .title2 {
+        font-size: 5rem;
+        text-shadow:
+        -1.8px -1.8px 0 black,
+        1.8px -1.8px 0 black,
+        -1.8px 1.8px 0 black,
+        1.8px 1.8px 0 black;
+        line-height: 4.8rem;
+    }
+
+    .profile,
+    .webpage,
+    .video,
+    .branding, .branding2 {
+        font-size: 1.5rem;
+    }
+
+    .popup {
+        height: 62.5rem;
+    }
+
+    .info {
+        font-size: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 0.9rem;
+    }
+
+    .tools {
+        grid-template-columns: repeat(5, 3.4rem);
+        grid-template-rows: repeat(2, 3.4rem);
+        grid-gap: 0.3rem;
+    }
+
+    .tools div {
+        width: 3.4rem;
+        height: 3.4rem;
+        border: 1.3px solid black;
+    }
+
+    .tools a {
+        font-size: 0.8rem;
+        line-height: 3.4rem;
+    }
+
+    .webex h3 {
+        font-size: 0.8rem;
+    }
+
+    .videoex h3 {
+        font-size: 0.8rem;
+    }
+
+    .sixth {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, 19.5rem);
+    }
+
+    .more {
+        font-size: 0.6rem;
+    }
+
+}
